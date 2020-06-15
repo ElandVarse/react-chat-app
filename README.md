@@ -1,7 +1,7 @@
 # simple-chat
 Testing a very simple chat made with node.js and socket.io 
 
-##Installation
+## Installation
 
 ```sh
 # 1. Run npm install
