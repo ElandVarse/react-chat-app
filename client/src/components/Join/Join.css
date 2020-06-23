@@ -1,18 +1,4 @@
-html, body {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #root {
-    height: 100vh;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .joinOuterContainer {
+    .joinOuterContainer {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -29,6 +15,8 @@ html, body {
     border-radius: 0;
     padding: 15px 20px;
     width: 100%;
+    border-radius: 8px;
+    border: 3px solid rgb(170, 170, 170);
   }
   
   .heading {
@@ -36,19 +24,27 @@ html, body {
     font-size: 2.5em;
     padding-bottom: 10px;
     border-bottom: 2px solid white;
+    margin-bottom: 30px;
   }
   
   .button {
-      color: #fff !important;
+      color: #2979FF;
       text-transform: uppercase;
       text-decoration: none;
-      background: #2979FF;
       padding: 20px;
-      border-radius: 5px;
+      border-radius: 8px;
       display: inline-block;
-      border: none;
+      border: 3px solid #2979FF;
       width: 100%;
       cursor: pointer;
+      font-weight: bolder;
+      background: none;
+      transition: .2s all ease-in-out;
+  }
+
+  .button:hover{
+    background-color: #2979FF;
+    color: #fff;
   }
   
   .mt-20 {

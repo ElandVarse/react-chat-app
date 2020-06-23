@@ -1,5 +1,8 @@
 import React from 'react'
 
+import { X } from 'react-feather';
+
+import { Link } from 'react-router-dom'
 import closeIcon from '../../assets/closeIcon.png'
 import onlineIcon from '../../assets/onlineIcon.png'
 
@@ -14,7 +17,9 @@ const InfoBar = ( {room} ) => (
         </div>
 
         <div className="rightInnerContainer">
-            <a href="/"> <img src={closeIcon} alt="close"/> </a>
+            <Link to="/">
+                <X color='white' size={20} />
+            </Link>
         </div>
     </div>
     )

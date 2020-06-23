@@ -2,8 +2,10 @@ import React from 'react'
 
 import './Input.css'
 
+import { Send } from 'react-feather'
+
 const Input = ({message, setMessage, sendMessage}) => (
-    <form action="" className="form">
+    <form className="form">
         <input 
             type="text" 
             className="input"
@@ -11,9 +13,10 @@ const Input = ({message, setMessage, sendMessage}) => (
             value={message}
             onChange={(event) => setMessage(event.target.value)}
             onKeyPress={event => event.key === 'Enter' ? sendMessage(event) : null}
-        />
+        > 
+        </input>
         <button className="sendButton" onClick={(event) => sendMessage(event)}>
-            Enviar
+            <Send size={25}/>
         </button>
     </form>
 )
