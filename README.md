@@ -3,7 +3,6 @@ A chat application made with react, nodejs and socket.io, following the tutorial
 <br/>
 ## You can check the chat here: https://5ef36b174864f76ca7bd51d9--cool-react-chat.netlify.app/
 <br/>
-
 ### Installation ###
 
 ```sh
