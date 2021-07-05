@@ -3,7 +3,7 @@ A chat application built with react, nodejs and socket.io. Following the instruc
 
 <br/>
 
-## Join
+## Start
 ![Join](https://i.imgur.com/6XMoO2n.png?1)
 
 ## Chat 
