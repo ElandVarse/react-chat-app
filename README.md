@@ -1,7 +1,18 @@
 # react-chat-app
-A chat application made with react, nodejs and socket.io, following the tutorial from 'Javascript Mastery' channel.
+A chat application built with react, nodejs and socket.io. Following the instructions from 'Javascript Mastery' channel.
+
 <br/>
-## You can check the chat here: https://5ef36b174864f76ca7bd51d9--cool-react-chat.netlify.app/
+
+## Join
+![Join](https://i.imgur.com/6XMoO2n.png?1)
+
+## Chat 
+
+![Chat](https://i.imgur.com/au8ziSY.png?1)
+
+
+## You can check the result here:
+https://5ef36b174864f76ca7bd51d9--cool-react-chat.netlify.app/
 
 ### Installation ###
 
